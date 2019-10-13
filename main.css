@@ -105,3 +105,11 @@ hr {
 .ul-border {
 	border-left: white solid 0.05em;
 }
+
+#site {
+	color: cyan;
+}
+
+#site:hover {
+	color: lightgreen;
+}
