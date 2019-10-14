@@ -113,3 +113,54 @@ hr {
 #site:hover {
 	color: lightgreen;
 }
+
+#site1 {
+	color: cyan;
+}
+
+#site1:hover {
+	color: lightgreen;
+}
+
+#site2 {
+	color: cyan;
+}
+
+#site2:hover {
+	color: lightgreen;
+}
+
+#site3 {
+	color: cyan;
+}
+
+#site3:hover {
+	color: lightgreen;
+}
+
+#site4 {
+	color: cyan;
+}
+
+#site4:hover {
+	color: lightgreen;
+}
+
+.maindiv {
+	margin: auto;
+	width: 1200px;
+	height: 630px;
+	background-image: url('img/nod32.jpg');
+	background-size: 100% 100%;
+	animation: slider 9s infinite linear;
+}
+
+@keyframes slider {
+	0%{background-image: url('img/nod32.jpg');background-size: 100% 100%;}
+
+	33%{background-image: url('img/malwarebytes.jpg');background-size: 100% 100%;}
+
+	66%{background-image: url('img/360.jpg');background-size: 100% 100%;}
+
+	99%{background-image: url('img/nod32.jpg');background-size: 100% 100%;}
+}
