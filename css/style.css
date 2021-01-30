@@ -6,16 +6,27 @@
 .pets {
     background-color: #070502;
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .p-pets {
-    color: aliceblue;
+    color: #fff;
     font-family: 'Rubik', sans-serif;
     font-size: 2rem;
 }
 
 .sub-p-pets {
-    color: antiquewhite;
+    color: #e3bca6;
     font-family: 'Rubik', sans-serif;
     font-size: 1rem;
+}
+
+.btn1 {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-color: #fff;
+    background: black;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
 }
