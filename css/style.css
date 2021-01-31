@@ -17,7 +17,7 @@
 .sub-p-pets {
     color: #e3bca6;
     font-family: 'Rubik', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
@@ -59,14 +59,31 @@ footer {
     margin-top: 3%;
     margin-left: 2.5%;
     margin-right: 2.5%;
-    color: #fff;
-    position: absolute;
-    z-index: 2;
+    color: black;
+    position: relative;
     font-family: 'Comfortaa', cursive;
-    text-shadow: 0 0 1em red;
 }
 
 .ad {
     color: #fff;
     text-decoration: none;
+}
+
+.mt-btn {
+    position: absolute;
+    z-index: 2;
+    background-color: #e3bca6;
+}
+
+.img-dog {
+    z-index: 0;
+    position: relative;
+}
+
+.dog-name {
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    margin-top: 10%;
+    margin-left: 5%;
 }
